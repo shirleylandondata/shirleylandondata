@@ -14,7 +14,8 @@ I bring a business-first perspective to data, cloud, and technical problem-solvi
 |---|---|---|
 | 📈 **Executive KPI Command Center** | Analytics + business thinking | [View Project](https://github.com/shirleylandondata/executive-kpi-command-center) |
 | ☁️ **Azure Active Directory Domain Lab** | Azure + infrastructure | [View Project](https://github.com/shirleylandondata/Azure-Active-Directory-Domain-Lab) |
-| 🛡️ **Splunk Security Monitoring Lab** | Security + log analytics | [View Project](YOUR-SPLUNK-REPOSITORY-LINK) |
+| 🛡️ **Splunk Security Monitoring Lab** | Security + log analytics | [View Project]([YOUR-SPLUNK-REPOSITORY-LINK](https://github.com/shirleylandondata/Azure-Splunk-Security-Monitoring-Lab)) |
+| 🛡️ **Splunk Security Monitoring Lab** | Security + log analytics | [View Project]() |
 | 🌐 **Network Traffic Analysis Lab** | Networking + troubleshooting | [View Project](https://github.com/shirleylandondata/Network-Traffic-Analysis-Lab) |
 
 ---
