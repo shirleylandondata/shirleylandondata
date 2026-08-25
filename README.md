@@ -1,59 +1,35 @@
-# Hi, I'm Shirley Landon
+# Hi, I'm Shirley Landon 👋
 
-### Data & Cloud Analyst | Business Intelligence | Technical Operations
+### 📊 Data & Cloud Analyst | Business Intelligence | Technical Operations
 
-I bring a business-first perspective to data, cloud, and technical problem-solving.
+I bring a business-first perspective to data, cloud, and technical problem-solving — backed by executive operations experience in private equity and hedge fund environments.
 
-My background includes executive operations within private equity and hedge fund environments, where I developed experience working with complex information, senior stakeholders, and business-critical priorities.
-
-I'm currently pursuing a B.S. in Analytics with a concentration in Cloud Computing at Purdue Global while building hands-on projects across data analytics, business intelligence, cloud infrastructure, networking, and security monitoring.
-
-My portfolio focuses on one question:
-
-> How can data and technology be used to solve a real business or operational problem?
+`SQL` `Python` `Power BI` `Azure` `Splunk` `Wireshark` `Active Directory`
 
 ---
 
-## Data Analytics & Business Intelligence Projects
+## 🌟 Featured Projects
 
-### Executive KPI Command Center
-
-`SQL` `Python` `Data Modeling` `Business Intelligence`
-
-Building an end-to-end analytics environment designed to transform operational and customer data into executive-level KPIs and business insights.
-
-Key areas:
-
-* Revenue and subscription analytics
-* Customer segmentation
-* Executive KPI development
-* Data modeling
-* SQL analytics
-* Python-generated datasets
-
-[View Project](https://github.com/shirleylandondata/executive-kpi-command-center)
+| Project | What it proves | Links |
+|---|---|---|
+| 📈 **Executive KPI Command Center** | Analytics + business thinking | [View Project](https://github.com/shirleylandondata/executive-kpi-command-center) |
+| ☁️ **Azure Active Directory Domain Lab** | Azure + infrastructure | [View Project](https://github.com/shirleylandondata/Azure-Active-Directory-Domain-Lab) |
+| 🛡️ **Splunk Security Monitoring Lab** | Security + log analytics | [View Project](YOUR-SPLUNK-REPOSITORY-LINK) |
+| 🌐 **Network Traffic Analysis Lab** | Networking + troubleshooting | [View Project](https://github.com/shirleylandondata/Network-Traffic-Analysis-Lab) |
 
 ---
 
-### Payment Funnel Analysis — FinTech
+## 📊 More Data & Analytics Projects
+
+### 💳 Payment Funnel Analysis — FinTech
 
 `SQL` `DuckDB` `Funnel Analysis` `Customer Analytics`
 
 Analyzed customer movement through a multi-stage payment funnel to identify conversion rates, drop-off points, and opportunities to improve the customer journey.
 
-Key areas:
-
-* Funnel conversion
-* Step-to-step drop-off
-* Customer behavior
-* Payment success analysis
-* Business recommendations
-
 [View Project](https://github.com/shirleylandondata/payment-funnel-analysis-fintech)
 
----
-
-### AI-Enhanced ETL Pipeline
+### 🔄 AI-Enhanced ETL Pipeline
 
 `Python` `ETL` `Data Quality` `Data Transformation`
 
@@ -61,9 +37,7 @@ Built an ETL workflow focused on transforming, validating, and preparing data fo
 
 [View Project](https://github.com/shirleylandondata/ai-enhanced-etl-pipeline)
 
----
-
-### Customer Reviews NLP Analysis
+### 💬 Customer Reviews NLP Analysis
 
 `Python` `NLP` `Text Analytics`
 
@@ -73,155 +47,75 @@ Applied natural language processing techniques to customer review data to uncove
 
 ---
 
-## Cloud Infrastructure & Identity Labs
+## ☁️ Cloud & Infrastructure Labs
 
 ### Azure Active Directory Domain Lab
 
 `Microsoft Azure` `Windows Server` `Active Directory` `Group Policy`
 
-Built a Windows domain environment in Microsoft Azure to gain hands-on experience with cloud infrastructure and enterprise identity management.
-
-Key areas:
-
-* Azure virtual machines
-* Windows Server
-* Active Directory Domain Services
-* Organizational Units
-* User provisioning
-* Group Policy
-* Domain-joined client systems
-* Identity and access administration
+Built a Windows domain environment in Microsoft Azure to gain hands-on experience with cloud infrastructure and enterprise identity management, including Azure VMs, Active Directory Domain Services, Organizational Units, user provisioning, Group Policy, and domain-joined client systems.
 
 [View Project](https://github.com/shirleylandondata/Azure-Active-Directory-Domain-Lab)
 
 ---
 
-## Security Monitoring & Analysis
+## 🛡️ Security & Networking Labs
 
 ### Splunk Security Monitoring Lab
 
 `Splunk` `SPL` `Windows Event Logs` `Linux` `Active Directory`
 
-Built a Splunk environment to collect and analyze Windows security events and investigate authentication activity.
-
-Key areas:
-
-* Splunk Enterprise
-* Universal Forwarder
-* Windows event ingestion
-* SPL searches
-* Failed login detection
-* Security dashboards
-* KPI monitoring
-* Active Directory authentication events
+Built a Splunk environment to collect and analyze Windows security events and investigate authentication activity — including Universal Forwarder setup, Windows event ingestion, SPL searches, failed login detection, security dashboards, and KPI monitoring.
 
 [View Project](YOUR-SPLUNK-REPOSITORY-LINK)
 
----
-
-## Networking & Traffic Analysis
-
-### Network Traffic Analysis Lab
+### 🌐 Network Traffic Analysis Lab
 
 `Wireshark` `TCP/IP` `DNS` `ICMP` `Network Analysis`
 
-Captured and analyzed network traffic using Wireshark to understand how common protocols behave and how network activity can be investigated.
-
-Key areas:
-
-* Packet capture
-* TCP/IP
-* DNS traffic
-* ICMP
-* Protocol analysis
-* Network troubleshooting
+Captured and analyzed network traffic using Wireshark to understand how common protocols behave and how network activity can be investigated — covering packet capture, TCP/IP, DNS traffic, ICMP, and protocol analysis.
 
 [View Project](https://github.com/shirleylandondata/Network-Traffic-Analysis-Lab)
 
 ---
 
-## Technical Skills
+## 🛠️ Technical Skills
 
-### Data & Analytics
+📊 **Data & Analytics:** SQL · Python · Power BI · Excel · DuckDB · Data Modeling · ETL · Data Visualization · Predictive Analytics
 
-* SQL
-* Python
-* Power BI
-* Excel
-* DuckDB
-* Data Modeling
-* ETL
-* Data Visualization
-* Predictive Analytics
-* Customer & Funnel Analytics
+☁️ **Cloud & Infrastructure:** Microsoft Azure · Azure VMs · Windows Server · Active Directory · Group Policy · Linux
 
-### Cloud & Infrastructure
+🛡️ **Security & Networking:** Splunk · SPL · Wireshark · Windows Event Logs · TCP/IP · DNS · Security Monitoring
 
-* Microsoft Azure
-* Azure Virtual Machines
-* Windows Server
-* Active Directory
-* Group Policy
-* Linux
-* Cloud Fundamentals
-
-### Security & Networking
-
-* Splunk
-* SPL
-* Wireshark
-* Windows Event Logs
-* TCP/IP
-* DNS
-* Network Traffic Analysis
-* Security Monitoring
-
-### Development & Documentation
-
-* Git
-* GitHub
-* VS Code
-* Jupyter / Google Colab
-* Technical Documentation
-* Draw.io
+💻 **Development & Documentation:** Git · GitHub · VS Code · Jupyter / Google Colab · Draw.io
 
 ---
 
-## Currently Building
+## 🚧 Currently Building
 
 I'm continuing to expand my portfolio through projects that connect:
 
-* Data analytics with business decision-making
-* Cloud infrastructure with data environments
-* Security telemetry with operational analytics
-* Python and SQL with end-to-end analytical workflows
+* 💡 Data analytics with business decision-making
+* ☁️ Cloud infrastructure with data environments
+* 🛡️ Security telemetry with operational analytics
+* 🐍 Python and SQL with end-to-end analytical workflows
 
 My current focus is strengthening my Microsoft Azure, analytics engineering, cloud operations, and security monitoring skills through hands-on projects.
 
 ---
 
-## Career Direction
+## 🎯 What I'm Building Toward
 
-I'm building toward opportunities where business knowledge, data, and technology intersect.
+I'm building toward Data Analytics, Business Intelligence, and Cloud/Technical Operations roles where I can combine business context with hands-on technical skills.
 
-Roles of interest include:
-
-* Data Analyst
-* Business Intelligence Analyst
-* Cloud Analyst
-* Technical Operations Analyst
-* IT Operations Analyst
-* Product / Customer Analytics
-* Cloud Operations
-
-My previous executive operations experience also gives me a strong understanding of stakeholder communication, business priorities, and translating complex information into actionable decisions.
+My background in executive operations within investment environments gives me experience translating complex information, managing business priorities, and communicating with senior stakeholders.
 
 ---
 
-## Let's Connect
+## 📬 Let's Connect
 
-LinkedIn: [Shirley Landon](YOUR-LINKEDIN-URL)
+💼 LinkedIn: [Shirley Landon](YOUR-LINKEDIN-URL)
 
-Portfolio: [Data & Cloud Portfolio](YOUR-PORTFOLIO-URL)
+🌐 Portfolio: [Data & Cloud Portfolio](YOUR-PORTFOLIO-URL)
 
-GitHub: [shirleylandondata](https://github.com/shirleylandondata)
+🐙 GitHub: [shirleylandondata](https://github.com/shirleylandondata)
