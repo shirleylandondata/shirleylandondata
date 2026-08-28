@@ -17,7 +17,7 @@ I bring a business-first perspective to data, cloud, and technical problem-solvi
 | ☁️ **Azure Active Directory Domain Lab** | Azure + infrastructure | [View Project](https://github.com/shirleylandondata/Azure-Active-Directory-Domain-Lab) |
 | 🛡️ **Splunk Security Monitoring Lab** | Security + log analytics | [View Project](https://github.com/shirleylandondata/Azure-Splunk-Security-Monitoring-Lab)) |
 | 🌐 **Network Traffic Analysis Lab** | Networking + troubleshooting | [View Project](https://github.com/shirleylandondata/Network-Traffic-Analysis-Lab) |
-
+| 🌐 **ServiceNow-ITSM-Change-Management-Lab** | Networking + troubleshooting | [View Project](https://github.com/shirleylandondata/ServiceNow-ITSM-Change-Management-Lab)
 ---
 
 ## 📊 More Data & Analytics Projects
