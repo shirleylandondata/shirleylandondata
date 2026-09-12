@@ -59,6 +59,15 @@ Utilized Wireshark to analyze packet logs, diagnose network connectivity issues,
 
 [View Project](https://github.com/shirleylandondata/Network-Traffic-Analysis-Lab)
 
+
+### 🛡️ Nessus Vulnerability Assessment & Remediation
+
+`Nessus` `Azure` `Windows Server` `PowerShell` `Active Directory` `CVSS`
+
+Performed credentialed vulnerability scanning against a Windows Server environment using Tenable Nessus Essentials Plus. Identified and prioritized a High-severity CVSS 8.8 vulnerability, remediated the Windows registry configuration using PowerShell, and verified successful remediation through a follow-up authenticated scan.
+
+[View Project](https://github.com/shirleylandondata/Nessus-Vulnerability-Assessment-Remediation)
+
 ---
 
 ## 📊 Data & Analytics Projects
