@@ -6,7 +6,7 @@ A detail-oriented Systems and Cloud Support professional leveraging an extensive
 
 I specialize in managing cloud infrastructure, troubleshooting network operations, and streamlining technical support workflows. Blending a rigorous understanding of corporate compliance with practical cloud administration skills, I bridge the gap between technical infrastructure and business continuity.
 
-`ServiceNow` `Azure` `Splunk` `Wireshark` `Active Directory` `ITIL 4`
+`ServiceNow` `Azure` `Splunk` `Wireshark` `Active Directory` `Nessus` `ITIL 4`
 
 ---
 
