@@ -1,12 +1,12 @@
 # Hi, I'm Shirley Landon 👋
 
-### IT Support Analyst | Cloud Support Associate | ServiceNow ITSM | Azure Active Directory | Systems Administration | Troubleshooting & Security | ITIL 4 Framework
+### IT Support Analyst | Cloud Support Associate | Azure | Terraform | Windows Server | Active Directory | ServiceNow | PowerShell
 
 A detail-oriented Systems and Cloud Support professional leveraging an extensive background in fast-paced executive financial operations (private equity & hedge funds) to maintain secure, reliable, and high-availability enterprise environments.
 
 I specialize in managing cloud infrastructure, troubleshooting network operations, and streamlining technical support workflows. Blending a rigorous understanding of corporate compliance with practical cloud administration skills, I bridge the gap between technical infrastructure and business continuity.
 
-`ServiceNow` `Azure` `Splunk` `Wireshark` `Active Directory` `Nessus` `ITIL 4`
+`Azure` `Terraform` `Windows Server` `Active Directory` `PowerShell` `ServiceNow` `Splunk` `Nessus`
 
 ---
 
