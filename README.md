@@ -14,6 +14,7 @@ I specialize in managing cloud infrastructure, troubleshooting network operation
 
 | Project | What it proves | Links |
 |---|---|---|
+| 🏗️ **Azure AD Domain Controller — Terraform Deployment** | Infrastructure as Code + Azure infrastructure automation | [View Project](https://github.com/shirleylandondata/Azure-Active-Directory-Domain-Controller-Terraform-Deployment) |
 | ☁️ **Azure Active Directory Domain Lab** | Azure + infrastructure administration | [View Project](https://github.com/shirleylandondata/Azure-Active-Directory-Domain-Lab) |
 | 🎫 **ServiceNow ITSM Change Management Lab** | IT service management + process control | [View Project](https://github.com/shirleylandondata/ServiceNow-ITSM-Change-Management-Lab) |
 | 🛡️ **Splunk Security Monitoring Lab** | Security monitoring + log analytics | [View Project](https://github.com/shirleylandondata/Azure-Splunk-Security-Monitoring-Lab) |
@@ -22,6 +23,16 @@ I specialize in managing cloud infrastructure, troubleshooting network operation
 ---
 
 ## ☁️ Cloud & Infrastructure Labs
+
+### 🏗️ Azure AD Domain Controller — Terraform Deployment
+
+`Terraform` `Microsoft Azure` `Windows Server 2022` `Active Directory` `PowerShell` `Azure CLI` `DNS`
+
+Automated the deployment of a Windows Server 2022 Active Directory Domain Controller in Microsoft Azure using Terraform Infrastructure as Code. Provisioned Azure networking, compute, static IP addressing, NSG security rules, AD DS, and DNS.
+
+Troubleshot Azure VM SKU availability and Hyper-V generation compatibility, validated the deployed environment using PowerShell and Azure CLI, and reconciled Terraform state using `terraform import` after an interrupted VM extension provisioning operation.
+
+[View Project](https://github.com/shirleylandondata/Azure-Active-Directory-Domain-Controller-Terraform-Deployment)
 
 ### Azure Active Directory Domain Lab
 
@@ -116,7 +127,7 @@ Applied natural language processing techniques to customer review data to uncove
 
 ## 🛠️ Technical Toolkit
 
-☁️ **Cloud, Infrastructure & ITSM:** Microsoft Azure · ServiceNow (ITSM/Change Management) · Azure Active Directory (AD) · Virtual Machines (VMs) · Linux/Windows Server
+⚙️ **Infrastructure as Code & Automation:** Terraform · PowerShell · Python · Azure CLI · Command Line/Bash · Git/GitHub
 
 🛡️ **Networking & Security:** Wireshark (Traffic Analysis) · Splunk (SIEM/Log Monitoring) · Network Protocols (TCP/IP, DNS, DHCP) · ITIL 4 Framework
 
