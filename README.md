@@ -1,10 +1,12 @@
 # Hi, I'm Shirley Landon 👋
 
-### IT Support Analyst | Cloud Support Associate | Azure | Terraform | Windows Server | Active Directory | ServiceNow | PowerShell
+## AI Engineering | Data & Analytics | Cloud Infrastructure | Automation
 
-A detail-oriented Systems and Cloud Support professional leveraging an extensive background in fast-paced executive financial operations (private equity & hedge funds) to maintain secure, reliable, and high-availability enterprise environments.
+I build technical project labs around a question I care about: how can AI, data, and automation solve real business and operational problems?
 
-I specialize in managing cloud infrastructure, troubleshooting network operations, and streamlining technical support workflows. Blending a rigorous understanding of corporate compliance with practical cloud administration skills, I bridge the gap between technical infrastructure and business continuity.
+My portfolio spans LLM applications, data analytics, cloud infrastructure, IT operations, and security. I use Python, SQL, APIs, Azure, and AI technologies to build systems that turn business problems into working technical solutions.
+
+My background in financial-services operations gives me another perspective on technical work: I think about the people, processes, workflows, and business decisions behind the technology..
 
 `Azure` `Terraform` `Windows Server` `Active Directory` `PowerShell` `ServiceNow` `Splunk` `Nessus`
 
@@ -14,11 +16,30 @@ I specialize in managing cloud infrastructure, troubleshooting network operation
 
 | Project | What it proves | Links |
 |---|---|---|
+| 🤖 **AI Automation Consultant** |LLM engineering + prompt engineering + multi-turn conversational AI | [View Project](https://github.com/shirleylandondata/ai-automation-consultant) |
 | 🏗️ **Azure AD Domain Controller — Terraform Deployment** | Infrastructure as Code + Azure infrastructure automation | [View Project](https://github.com/shirleylandondata/Azure-Active-Directory-Domain-Controller-Terraform-Deployment) |
 | ☁️ **Azure Active Directory Domain Lab** | Azure + infrastructure administration | [View Project](https://github.com/shirleylandondata/Azure-Active-Directory-Domain-Lab) |
 | 🎫 **ServiceNow ITSM Change Management Lab** | IT service management + process control | [View Project](https://github.com/shirleylandondata/ServiceNow-ITSM-Change-Management-Lab) |
 | 🛡️ **Splunk Security Monitoring Lab** | Security monitoring + log analytics | [View Project](https://github.com/shirleylandondata/Azure-Splunk-Security-Monitoring-Lab) |
 | 🌐 **Network Traffic Analysis Lab** | Networking + troubleshooting | [View Project](https://github.com/shirleylandondata/Network-Traffic-Analysis-Lab) |
+
+---
+
+🤖 AI & LLM Engineering
+
+AI Automation Consultant
+
+Python | OpenAI API | LLMs | Prompt Engineering | Multi-Turn Conversation | AI Automation
+
+I built an LLM-powered AI Automation Consultant that helps small and mid-sized businesses identify workflow automation opportunities through structured operational discovery.
+
+Rather than immediately generating generic recommendations, the application conducts a multi-turn conversation and asks one context-aware question at a time. It maintains conversational memory so later questions can build on information provided earlier in the discovery process.
+
+One of the most useful lessons from this project came from testing the prompt itself. An early version asked users several questions at once, which made the interaction feel like a questionnaire. I refined the system instructions to explicitly require one question at a time, wait for the user's response, and use previous answers to determine the next question.
+
+The result was a more natural discovery conversation and a good example of how prompt design can materially change application behavior.
+
+➡️  [View Project](https://github.com/shirleylandondata/ai-automation-consultant)
 
 ---
 
