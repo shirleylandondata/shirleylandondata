@@ -25,9 +25,9 @@ My background in financial-services operations gives me another perspective on t
 
 ---
 
-🤖 AI & LLM Engineering
+## 🤖 AI & LLM Engineering
 
-AI Automation Consultant
+### AI Automation Consultant
 
 Python | OpenAI API | LLMs | Prompt Engineering | Multi-Turn Conversation | AI Automation
 
