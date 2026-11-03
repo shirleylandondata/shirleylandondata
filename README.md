@@ -2,7 +2,7 @@
 
 ## Data & Operations Analyst | SQL · Python · Power BI · Excel
 
-I turn messy business data into clear answers that people can act on.
+### I turn messy business data into clear answers that people can act on.
 
 I spent 15 years inside the operations that analysts report on: supporting investment teams, executives, and legal practices at The Carlyle Group, Goldman Sachs, Barclays, Viking Global Investors, and Kirkland & Ellis. I've maintained the CRM records, reconciled the expenses, tracked the pipelines, and produced the reports. I know where business data breaks, because I've worked downstream of it.
 
