@@ -18,10 +18,36 @@ Now I build the analysis myself: defining the business question, validating the 
 
 | Project | Business question | Tools |
 |---|---|---|
+| 📊 **[Sales Performance Dashboard](https://github.com/shirleylandondata/Sales-Performance-Dashboard)** | Which products, states, and categories drive revenue and profit across 1M transactions? | Power BI · Tableau · Excel |
+| 🧹 **[Customer Data Cleaning & Validation](https://github.com/shirleylandondata/Customer-Data-Cleaning_Validation)** | Can 500K customer records with corrupted dates and codes be made trustworthy, and how do you prove it? | Power Query · Tableau · Excel |
 | 🔮 **[Customer Churn Predictive Modeling](https://github.com/shirleylandondata/Customer-Churn-Predictive-Modeling)** | Which retail-banking customers are most likely to leave, and where should retention effort go? | Python · pandas · scikit-learn · Matplotlib · Seaborn |
 | 📈 **[Executive KPI Command Center](https://github.com/shirleylandondata/Executive-KPI-Command-Center)** *(in progress)* | How can leadership get one trusted view of revenue, customers, sales, and support? | Python · DuckDB/SQL · Data Modeling · Power BI |
 | 💳 **[Payment Funnel Analysis — FinTech](https://github.com/shirleylandondata/payment-funnel-analysis-fintech)** | Where do payments drop off, and which methods fail most often? | SQL · DuckDB · Hex |
 | 🔄 **[AI-Enhanced ETL Pipeline](https://github.com/shirleylandondata/ai-enhanced-etl-pipeline)** | Can structured business data be extracted automatically from free-text customer reviews? | Python · spaCy · NLP |
+
+---
+
+### 📊 Sales Performance Dashboard
+
+Executive dashboards for a computer hardware and software retailer, built from **1,000,000 sales transactions** in Power BI, Tableau, and Excel.
+
+**What I found:**
+- **Software earns about twice hardware's margin** (≈24.7% vs. ≈11.7%). It's 20% of revenue but about 34% of profit.
+- **Internet Security is the margin outlier** at 18%, while every other software category earns about 26%.
+- **California, New York, and Texas lead profit,** and the top 10 products drive about 27% of the $43.39B in revenue.
+- **Validated across tools:** Excel sub-category totals reconcile exactly to the $43.39B revenue shown in Power BI and Tableau.
+
+➡️ [View project](https://github.com/shirleylandondata/Sales-Performance-Dashboard) · [Interactive Tableau dashboard](https://public.tableau.com/views/IN302_ShirleyGLandon_U9/CoXYZSalesPDashboard)
+
+---
+
+### 🧹 Customer Data Cleaning & Validation
+
+Cleaned **500,000 customer records** using the same rules in Tableau, Power BI (Power Query), and Excel. I fixed birthdates recorded in the 1700s, future join dates, invalid gender codes, and inconsistent ZIP codes, then derived Age and tenure fields.
+
+**Why it matters:** reconciling chart totals back to the 500,000-row source showed that about 46 records still had future join dates after the first cleaning rule. Cross-checking caught what a single tool missed, and the project documents the stronger rule and validation checks.
+
+➡️ [View project](https://github.com/shirleylandondata/Customer-Data-Cleaning_Validation)
 
 ---
 
@@ -85,7 +111,7 @@ I've also built hands-on labs in IT operations. Each one includes reporting and 
 
 ## 🛠️ Toolkit
 
-**Data & Analysis:** SQL · DuckDB · Python (pandas, NumPy, scikit-learn) · Excel · Data Modeling · Data Validation · ETL
+**Data & Analysis:** SQL · DuckDB · Python (pandas, NumPy, scikit-learn) · Excel (PivotTables) · Power Query · Data Modeling · Data Cleaning · Data Validation · ETL
 **Visualization & BI:** Power BI · Tableau · Matplotlib · Seaborn · Hex
 **Business Systems:** DealCloud CRM · ServiceNow · Splunk · Microsoft 365
 **Workflow:** Git/GitHub · VS Code · Jupyter / Google Colab · Draw.io
@@ -94,7 +120,7 @@ I've also built hands-on labs in IT operations. Each one includes reporting and 
 
 ## 🎓 Education
 
-- **B.S. Data Analytics & Cloud Computing**, Purdue University Global (expected June 2027) · GPA 3.89
+- **B.S. in Analytics – Cloud Computing**, Purdue University Global (expected 2027) · GPA 3.89 · Micro-credential: Data Intelligence
 - **MBA, Marketing Focus**, Keller Graduate School of Management
 - **BBA, Corporate Organizational Studies**, University of Connecticut
 
