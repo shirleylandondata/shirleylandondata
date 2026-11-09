@@ -14,15 +14,37 @@ Now I build the analysis myself: defining the business question, validating the 
 
 ---
 
+## ⭐ Spotlight: Payment Funnel Analysis — FinTech
+
+**Where do payments fail on a digital payments platform, why do they fail, and how much order value is at stake?**
+
+I analyzed **5,000 orders** in SQL across a five-stage payment funnel, classified **561 payment failures** by root cause, and compared six payment methods.
+
+<img src="https://raw.githubusercontent.com/shirleylandondata/payment-funnel-analysis-fintech/main/images/funnel_conversion.png" alt="Payment funnel conversion by stage" width="720">
+
+**What I found:**
+- **Authorization is the bottleneck:** 662 orders (15.95%) are lost between Payment Attempted and Payment Authorized, the largest drop in the funnel.
+- **Failures split evenly:** bank/processing issues (36.90%) and customer/payment-method issues (35.83%) cause nearly the same share of failures.
+- **Volume isn't risk:** Card has the most failures only because it has the most orders. **Bank Transfer has the highest failure rate (12.60%)** and the lowest paid rate.
+- **Every order reconciles:** 2,923 paid + 157 refunded + 86 chargebacks = 3,166 captured payments.
+
+**Checking my own work:** comparing the failure categories against the raw decline reasons showed that 58 address (AVS) mismatches had been left unclassified. Fixing the rule changed the finding from "processing problems dominate" to "an even split between processor and customer causes."
+
+**SQL:** CTEs · window functions (`LAG`, `FIRST_VALUE`) · `CASE` classification · `FILTER` aggregates · reconciliation queries
+
+➡️ [View project](https://github.com/shirleylandondata/payment-funnel-analysis-fintech) · [See the SQL](https://github.com/shirleylandondata/payment-funnel-analysis-fintech/tree/main/sql)
+
+---
+
 ## 📊 Featured Analytics Projects
 
 | Project | Business question | Tools |
 |---|---|---|
+| 💳 **[Payment Funnel Analysis — FinTech](https://github.com/shirleylandondata/payment-funnel-analysis-fintech)** | Where do payments fail, why, and how much order value is at stake? | SQL · DuckDB · Hex |
 | 📊 **[Sales Performance Dashboard](https://github.com/shirleylandondata/Sales-Performance-Dashboard)** | Which products, states, and categories drive revenue and profit across 1M transactions? | Power BI · Tableau · Excel |
 | 🧹 **[Customer Data Cleaning & Validation](https://github.com/shirleylandondata/Customer-Data-Cleaning_Validation)** | Can 500K customer records with corrupted dates and codes be made trustworthy, and how do you prove it? | Power Query · Tableau · Excel |
 | 🔮 **[Customer Churn Predictive Modeling](https://github.com/shirleylandondata/Customer-Churn-Predictive-Modeling)** | Which retail-banking customers are most likely to leave, and where should retention effort go? | Python · pandas · scikit-learn · Matplotlib · Seaborn |
 | 📈 **[Executive KPI Command Center](https://github.com/shirleylandondata/Executive-KPI-Command-Center)** *(in progress)* | How can leadership get one trusted view of revenue, customers, sales, and support? | Python · DuckDB/SQL · Data Modeling · Power BI |
-| 💳 **[Payment Funnel Analysis — FinTech](https://github.com/shirleylandondata/payment-funnel-analysis-fintech)** | Where do payments drop off, and which methods fail most often? | SQL · DuckDB · Hex |
 | 🔄 **[AI-Enhanced ETL Pipeline](https://github.com/shirleylandondata/ai-enhanced-etl-pipeline)** | Can structured business data be extracted automatically from free-text customer reviews? | Python · spaCy · NLP |
 
 ---
@@ -79,14 +101,6 @@ A fictional B2B SaaS company has customer, billing, sales, product, marketing, a
 **Next:** SQL warehouse build in DuckDB, KPI layer, executive dashboard, and written findings.
 
 ➡️ [View project](https://github.com/shirleylandondata/Executive-KPI-Command-Center)
-
----
-
-### 💳 Payment Funnel Analysis — FinTech
-
-Analyzed a 5,000-order simulated payments dataset in SQL/DuckDB to measure conversion at each payment stage, step-to-step conversion, and where transactions drop off, including the effect of fraud and authentication checks.
-
-➡️ [View project](https://github.com/shirleylandondata/payment-funnel-analysis-fintech)
 
 ---
 
