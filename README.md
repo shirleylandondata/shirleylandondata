@@ -117,7 +117,7 @@ Traditional ETL handles structured databases well but struggles with free text. 
 
 ## ⚙️ Operations Reporting & Systems
 
-I've also built hands-on labs in IT operations. Each one includes reporting and monitoring work:
+## I've also built hands-on labs in IT operations. Each one includes reporting and monitoring work:
 
 - **[ServiceNow ITSM Change Management Lab](https://github.com/shirleylandondata/ServiceNow-ITSM-Change-Management-Lab):** incident and change workflows, approvals, SLA tracking, and operational reporting
 - **[Splunk Monitoring Lab](https://github.com/shirleylandondata/Azure-Splunk-Security-Monitoring-Lab):** log ingestion, SPL queries, and dashboards tracking failed logins, lockouts, and operational KPIs
