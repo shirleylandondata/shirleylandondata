@@ -8,7 +8,7 @@ I spent 15 years inside the operations that analysts report on: supporting inves
 
 Now I build the analysis myself: defining the business question, validating the data, modeling it, and explaining what it means for the decision.
 
-**Open to remote roles:** Data Analyst · Business Data Analyst · Operations Analyst · Reporting Analyst · Data Quality Analyst · Business Intelligence (BI) Analyst
+**Open to remote roles**: Business Systems Analyst · Data Analyst · Business Data Analyst · Operations Analyst · Reporting Analyst · Data Quality Analyst · Business Intelligence (BI) Analystt
 
 📅 [Book an intro call](https://calendly.com/shirleymlandon/intro-meeting) · 💼 [LinkedIn](https://www.linkedin.com/in/shirleylandon/)
 
