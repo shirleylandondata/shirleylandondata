@@ -44,7 +44,7 @@ I analyzed **5,000 orders** in SQL across a five-stage payment funnel, classifie
 | 📊 **[Sales Performance Dashboard](https://github.com/shirleylandondata/Sales-Performance-Dashboard)** | Which products, states, and categories drive revenue and profit across 1M transactions? | Power BI · Tableau · Excel |
 | 🧹 **[Customer Data Cleaning & Validation](https://github.com/shirleylandondata/Customer-Data-Cleaning_Validation)** | Can 500K customer records with corrupted dates and codes be made trustworthy, and how do you prove it? | Power Query · Tableau · Excel |
 | 🔮 **[Customer Churn Predictive Modeling](https://github.com/shirleylandondata/Customer-Churn-Predictive-Modeling)** | Which retail-banking customers are most likely to leave, and where should retention effort go? | Python · pandas · scikit-learn · Matplotlib · Seaborn |
-| 📈 **[Executive KPI Command Center](https://github.com/shirleylandondata/Executive-KPI-Command-Center)** *(in progress)* | How can leadership get one trusted view of revenue, customers, sales, and support? | Python · DuckDB/SQL · Data Modeling · Power BI |
+| 📈 **[Executive KPI Command Center](https://github.com/shirleylandondata/Executive-KPI-Command-Center)** *(v1.0 released)* | How can leadership get one trusted view of revenue, customers, sales, product usage, and customer health? | Python · pandas · Data Modeling · Data Quality · DuckDB/SQL (V2) |
 | 🔄 **[AI-Enhanced ETL Pipeline](https://github.com/shirleylandondata/ai-enhanced-etl-pipeline)** | Can structured business data be extracted automatically from free-text customer reviews? | Python · spaCy · NLP |
 
 ---
@@ -88,19 +88,22 @@ A retail bank wants to focus retention resources on the customers most likely to
 
 ---
 
-### 📈 Executive KPI Command Center *(in progress)*
+### 📈 Executive KPI Command Center · [v1.0 released](https://github.com/shirleylandondata/Executive-KPI-Command-Center/releases/tag/v1.0)
 
-A fictional B2B SaaS company has customer, billing, sales, product, marketing, and support data spread across separate systems. Leadership can't answer basic questions from one trusted source.
+A fictional B2B SaaS company has its billing, sales, product, and customer success data spread across separate systems, and leadership can't answer basic questions from one trusted source. V1 builds the data foundation: business requirements, a star-schema model, a reproducible data pipeline, and validated monthly KPIs.
 
-**Completed so far:**
-- Translated executive questions into KPI definitions across revenue, customers, sales, product, marketing, support, and customer success
-- Designed a star-schema dimensional model spanning 7 business processes, with a field dictionary and ERD
-- Built a seeded, reproducible Python data generator
-- Ran data-quality checks on generated data: uniqueness, referential integrity, date logic, and non-negative revenue across **128,977 revenue transactions**, with zero duplicate or missing customer IDs
+**V1 KPI snapshot (Jan 2024 → Jul 2026):**
+- **MRR grew 44.6%,** from $3.46M to $5.01M ($60.1M ARR), on 2,677 → 3,822 active subscriptions
+- **Monthly churn averaged 0.33%,** and **collection rate averaged 95.0%**
+- **Every KPI ties back to source data:** monthly transactions match active subscriptions in all 31 months
 
-**Next:** SQL warehouse build in DuckDB, KPI layer, executive dashboard, and written findings.
+**Checking my own work:** every row-level check passed, but billed revenue sat flat at $5.45M every month while subscriptions grew. Reconciling revenue against subscriptions traced the cause to a billing calendar that only ran for 3 subscriptions. After the fix, 106,112 transactions show 0 billed before start, 0 billed after cancellation, and 0 where collected exceeds billed.
 
-➡️ [View project](https://github.com/shirleylandondata/Executive-KPI-Command-Center)
+**Also in V1:** a KPI dictionary with owners and decisions, a KPI-to-data mapping that flags which KPIs the data can't support yet (NRR and GRR need expansion/contraction history), and 29 documented data quality rules.
+
+**Next (V2):** SQL KPI layer in DuckDB, executive dashboard, and written findings.
+
+➡️ [View project](https://github.com/shirleylandondata/Executive-KPI-Command-Center) · [Data quality rules](https://github.com/shirleylandondata/Executive-KPI-Command-Center/blob/main/docs/data_quality_rules.md) · [KPI mapping](https://github.com/shirleylandondata/Executive-KPI-Command-Center/blob/main/docs/kpi_data_mapping.md)
 
 ---
 
